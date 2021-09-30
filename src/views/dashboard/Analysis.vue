@@ -1,6 +1,7 @@
 <template>
   <div>
     <a-row :gutter="24">
+      <LernaTestCode></LernaTestCode>
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
         <chart-card :loading="loading" :title="$t('dashboard.analysis.total-sales')" total="￥126,560">
           <a-tooltip :title="$t('dashboard.analysis.introduce')" slot="action">
@@ -213,6 +214,7 @@
 
 <script>
 import moment from 'moment'
+import LernaTestCode from '../../../packages/lerma-ant-ui/lernaTestCode.vue'
 import {
   ChartCard,
   MiniArea,
@@ -307,6 +309,7 @@ export default {
   name: 'Analysis',
   mixins: [baseMixin],
   components: {
+    LernaTestCode,
     ChartCard,
     MiniArea,
     MiniBar,
