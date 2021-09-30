@@ -1,0 +1,15 @@
+31 error Error: Command failed with exit code 1: git add -- packages/module-1/package.json packages/module-1/package-lock.json packages/module-2/package.json packages/module-2/package-lock.json
+31 error warning: LF will be replaced by CRLF in packages/module-1/package.json.
+31 error The file will have its original line endings in your working directory
+31 error warning: LF will be replaced by CRLF in packages/module-2/package.json.
+31 error The file will have its original line endings in your working directory
+31 error The following paths are ignored by one of your .gitignore files:
+31 error packages/module-1/package-lock.json
+31 error packages/module-2/package-lock.json
+31 error hint: Use -f if you really want to add them.
+31 error hint: Turn this message off by running
+31 error hint: "git config advice.addIgnoredFile false"
+31 error     at makeError (D:\lernaCode\lerna-ant-ui\node_modules\@lerna\child-process\node_modules\execa\lib\error.js:60:11)
+31 error     at handlePromise (D:\lernaCode\lerna-ant-ui\node_modules\@lerna\child-process\node_modules\execa\index.js:118:26)
+31 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31 error     at async Promise.all (index 0)
