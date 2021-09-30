@@ -10,6 +10,9 @@
     "build:preview": "vue-cli-service build --mode preview",
     "lint:nofix": "vue-cli-service lint --no-fix"
   },
+  "publishConfig": {
+    "registry": "https://[registry-url]"
+},
   "dependencies": {
     "@ant-design-vue/pro-layout": "^1.0.8",
     "@antv/data-set": "^0.10.2",
