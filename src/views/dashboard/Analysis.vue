@@ -1,7 +1,6 @@
 <template>
   <div>
     <a-row :gutter="24">
-      <lernaComponent></lernaComponent>
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
         <chart-card :loading="loading" :title="$t('dashboard.analysis.total-sales')" total="￥126,560">
           <a-tooltip :title="$t('dashboard.analysis.introduce')" slot="action">
@@ -226,7 +225,6 @@ import {
   MiniSmoothArea
 } from '@/components'
 import { baseMixin } from '@/store/app-mixin'
-import lernaComponent from '../../../packages/module-1/lernaTestPage.vue'
 
 const barData = []
 const barData2 = []
@@ -309,7 +307,6 @@ export default {
   name: 'Analysis',
   mixins: [baseMixin],
   components: {
-    lernaComponent,
     ChartCard,
     MiniArea,
     MiniBar,
