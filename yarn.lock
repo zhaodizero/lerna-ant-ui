@@ -9093,7 +9093,7 @@ less-loader@^5.0.0:
     loader-utils "^1.1.0"
     pify "^4.0.1"
 
-less@^3.0.4:
+less@^3.9.0:
   version "3.13.1"
   resolved "https://registry.nlark.com/less/download/less-3.13.1.tgz#0ebc91d2a0e9c0c6735b83d496b0ab0583077909"
   integrity sha1-DryR0qDpwMZzW4PUlrCrBYMHeQk=

@@ -2,6 +2,7 @@
   <div>
     <a-row :gutter="24">
       <LernaTestCode></LernaTestCode>
+      <!-- <lerna-ant-ui></lerna-ant-ui> -->
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
         <chart-card :loading="loading" :title="$t('dashboard.analysis.total-sales')" total="￥126,560">
           <a-tooltip :title="$t('dashboard.analysis.introduce')" slot="action">
@@ -214,7 +215,7 @@
 
 <script>
 import moment from 'moment'
-import LernaTestCode from '../../../packages/lerma-ant-ui/lernaTestCode.vue'
+// import LernaTestCode from '../../../packages/lerma-ant-ui/lernaTestCode.vue'
 import {
   ChartCard,
   MiniArea,
@@ -227,6 +228,7 @@ import {
   MiniSmoothArea
 } from '@/components'
 import { baseMixin } from '@/store/app-mixin'
+import {LernaTestCode} from '@/lerma-ant-ui'
 
 const barData = []
 const barData2 = []
@@ -309,7 +311,7 @@ export default {
   name: 'Analysis',
   mixins: [baseMixin],
   components: {
-    LernaTestCode,
+    // LernaTestCode,
     ChartCard,
     MiniArea,
     MiniBar,
