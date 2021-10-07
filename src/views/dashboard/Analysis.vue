@@ -2,7 +2,7 @@
   <div>
     <a-row :gutter="24">
       <LernaTestCode></LernaTestCode>
-      <!-- <lerna-ant-ui></lerna-ant-ui> -->
+      <!-- <lerma-ant-ui></lerma-ant-ui> -->
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
         <chart-card :loading="loading" :title="$t('dashboard.analysis.total-sales')" total="￥126,560">
           <a-tooltip :title="$t('dashboard.analysis.introduce')" slot="action">
@@ -228,7 +228,6 @@ import {
   MiniSmoothArea
 } from '@/components'
 import { baseMixin } from '@/store/app-mixin'
-import {LernaTestCode} from '@/lerma-ant-ui'
 
 const barData = []
 const barData2 = []
