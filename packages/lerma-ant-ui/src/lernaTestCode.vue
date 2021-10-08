@@ -1,7 +1,7 @@
 <!-- LernaTestCode -->
 <template>
   <div class='root'>
-    Lerna Components To Npm.js
+    Lerna Vue 组件
   </div>
 </template>
 
