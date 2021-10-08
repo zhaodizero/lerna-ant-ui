@@ -19,12 +19,10 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-expect.TCButton= TCButton
-expect.LernaTestCode= LernaTestCode
 export default {
   //总体
   install,
   //支持按需引入
-  // TCButton,
-  // LernaTestCode
+  TCButton,
+  LernaTestCode
 }
