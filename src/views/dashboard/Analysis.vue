@@ -216,8 +216,8 @@
 
 <script>
 import moment from 'moment'
-import TCButton from '../../../packages/lerma-ant-ui/src/Button.vue'
-import LernaTestCode from '../../../packages/lerma-ant-ui/src/lernaTestCode.vue'
+import TCButton from '../../../packages/lerma-ant-ui/src/button/index'
+import LernaTestCode from '../../../packages/lerma-ant-ui/src/test-code/index'
 import {
   ChartCard,
   MiniArea,
