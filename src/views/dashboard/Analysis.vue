@@ -216,8 +216,6 @@
 
 <script>
 import moment from 'moment'
-import TCButton from '../../../packages/lerma-ant-ui/src/button/index'
-import LernaTestCode from '../../../packages/lerma-ant-ui/src/test-code/index'
 import {
   ChartCard,
   MiniArea,
@@ -312,9 +310,6 @@ export default {
   name: 'Analysis',
   mixins: [baseMixin],
   components: {
-    LernaTestCode,
-  TCButton,
-
     ChartCard,
     MiniArea,
     MiniBar,
