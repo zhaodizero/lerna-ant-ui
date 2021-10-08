@@ -2,6 +2,7 @@
   <div>
     <a-row :gutter="24">
       <LernaTestCode></LernaTestCode>
+      <TCButton></TCButton>
       <!-- <lerma-ant-ui></lerma-ant-ui> -->
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
         <chart-card :loading="loading" :title="$t('dashboard.analysis.total-sales')" total="￥126,560">
@@ -215,7 +216,8 @@
 
 <script>
 import moment from 'moment'
-// import LernaTestCode from '../../../packages/lerma-ant-ui/lernaTestCode.vue'
+import TCButton from '../../../packages/lerma-ant-ui/src/Button.vue'
+import LernaTestCode from '../../../packages/lerma-ant-ui/src/lernaTestCode.vue'
 import {
   ChartCard,
   MiniArea,
@@ -310,7 +312,9 @@ export default {
   name: 'Analysis',
   mixins: [baseMixin],
   components: {
-    // LernaTestCode,
+    LernaTestCode,
+  TCButton,
+
     ChartCard,
     MiniArea,
     MiniBar,
