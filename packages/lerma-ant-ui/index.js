@@ -1,5 +1,5 @@
-import TCButton from './src/button/index';
-import LernaTestCode from './src/test-code/index';
+import TCButton from './src/button/components/Button.vue';
+import LernaTestCode from './src/test-code/components/lernaTestCode.vue';
 
 
 const components = [

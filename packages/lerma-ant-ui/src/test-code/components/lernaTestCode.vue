@@ -1,7 +1,7 @@
 <!-- LernaTestCode -->
 <template>
   <div class='root'>
-    Lerna Vue 组件更新1.0.6版本
+    Lerna Vue 组件更新1.0.10版本
   </div>
 </template>
 
