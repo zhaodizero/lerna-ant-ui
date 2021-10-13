@@ -1,10 +1,10 @@
 # LernaUI
 
-## Lerna-ant-ui V1.0.0
+## Lerna-ant-ui V1.0.2
 
 ## 前言
 
-组件库为运营信息开发部维护的公共组件库，目的是为了实现功能和 UI 统一。
+Lerna 管理工具及组件库发布基础实践示例
 
 ## 组件库使用
 
@@ -32,14 +32,11 @@ Vue.use(LernaUI)
 
 ### 组件开发环境及工具介绍
 
-1. 组件开发容器
-
-- [Ant Design Pro Vue 框架](https://pro.antdv.com/docs/getting-started)
-- [开源组件库：Ant Design Vue](https://antdv.com/docs/vue/introduce-cn/)
-
-1. 包管理工具
-
-- [Lerna](https://lerna.js.org/)
+- 组件开发容器
+  - [Ant Design Pro Vue 框架](https://pro.antdv.com/docs/getting-started)
+  - [开源组件库：Ant Design Vue](https://antdv.com/docs/vue/introduce-cn/)
+- 包管理工具
+  - [Lerna](https://lerna.js.org/)
 
 ### 组件文件目录
 
@@ -47,13 +44,13 @@ Vue.use(LernaUI)
 
 ### 组件开发
 
-- 在 packages\src 下新建一个组件文件夹，以 Button 组件为例
+- - 在 packages\src 下新建一个组件文件夹，以 Button 组件为例
 
-- 注意必须填写组件 name，且唯一
+- - 注意必须填写组件 name，且唯一
 
 ![img](https://cdn.nlark.com/yuque/0/2021/png/22718125/1634097080030-7661e56a-0e5b-44bc-bda1-0fe4402aafb1.png)
 
-- 组件 install 注册
+- - 组件 install 注册
 
 ```javascript
 // packages\lerna-ant-ui\src\Button\index.js
@@ -109,14 +106,14 @@ Vue.use(LernaUI)
 
 - 项目实际环境
 
-  - 组件库需发布至 npm 管理
+- - 组件库需发布至 npm 管理
   - 安装 lerna-ant-ui
 
 ```javascript
 npm install lerna-ant-ui
 ```
 
-- 项目中使用
+- - 项目中使用
 
 ```javascript
 // main.js 入口引入
@@ -126,7 +123,7 @@ Vue.use(LernaUI)
 
 ### 组件库发布
 
-- 第一次 publish 前我们需要执行，登录 npm
+- 第一次 publish 前我们需要执行，登录 npm,或官网登录
 
 ```javascript
 npm login --registry=https://registry.npmjs.org
@@ -134,10 +131,10 @@ npm login --registry=https://registry.npmjs.org
 
 - 使用 git 命令，并 git commit 提交
 
-  - git status
+- - git status
   - git add .
 
-  - git commit -m "发布 lerna-ant-ui 组件库"
+- - git commit -m "发布 lerna-ant-ui 组件库"
 
 - 发布 publish
   - git commit 之后执行 lerna publish
