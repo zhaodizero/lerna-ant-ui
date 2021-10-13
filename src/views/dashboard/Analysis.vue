@@ -1,8 +1,7 @@
 <template>
   <div>
     <a-row :gutter="24">
-      <LernaTestCode></LernaTestCode>
-      <TCButton></TCButton>
+      <LernaButton></LernaButton>
       <!-- <lerma-ant-ui></lerma-ant-ui> -->
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
         <chart-card :loading="loading" :title="$t('dashboard.analysis.total-sales')" total="￥126,560">
