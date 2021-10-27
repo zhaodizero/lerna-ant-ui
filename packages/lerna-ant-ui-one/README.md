@@ -117,7 +117,7 @@ npm install lerna-ant-ui
 
 ```javascript
 // main.js 入口引入
-import LernaUI from 'lerma-ant-ui'
+import LernaUI from 'lerna-ant-ui'
 Vue.use(LernaUI)
 ```
 

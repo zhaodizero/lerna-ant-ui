@@ -1,6 +1,7 @@
 <template>
   <a-config-provider :locale="locale">
     <div id="app">
+      <LernaButton></LernaButton>
       <router-view/>
     </div>
   </a-config-provider>

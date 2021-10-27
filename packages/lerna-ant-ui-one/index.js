@@ -1,3 +1,5 @@
+//  packages\lerna-ant-ui\index.js
+
 import LernaButton from './src/Button/components/Button.vue'
 
 const components = [LernaButton]

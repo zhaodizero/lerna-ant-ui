@@ -1,6 +1,6 @@
 {
-  "name": "lerna-ant-ui",
-  "version": "1.0.2",
+  "name": "lerna-ant-ui-one",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lerma-ant-ui": "^1.0.5"
+  }
 }
