@@ -9138,13 +9138,6 @@ left-pad@^1.3.0:
   resolved "https://registry.nlark.com/left-pad/download/left-pad-1.3.0.tgz#5b8a3a7765dfe001261dde915589e782f8c94d1e"
   integrity sha1-W4o6d2Xf4AEmHd6RVYnngvjJTR4=
 
-lerma-ant-ui@^1.0.5:
-  version "1.1.0"
-  resolved "https://registry.npmmirror.com/lerma-ant-ui/download/lerma-ant-ui-1.1.0.tgz?cache=0&sync_timestamp=1633680428119&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Flerma-ant-ui%2Fdownload%2Flerma-ant-ui-1.1.0.tgz#d54deeaf319509e4d0f8bc0c962822f6a539e4b3"
-  integrity sha1-1U3urzGVCeTQ+LwMligi9qU55LM=
-  dependencies:
-    cross-env "^7.0.3"
-
 lerna@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/lerna/download/lerna-4.0.0.tgz#b139d685d50ea0ca1be87713a7c2f44a5b678e9e"

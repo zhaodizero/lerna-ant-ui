@@ -1,20 +1,19 @@
 <!-- COMPONENT_NAME -->
 <template>
-  <div>
-    <a-button type="primary" @click="handleAlert">Lerna 按钮组件</a-button>
+  <div class="root">
+    <a-button @click="handleAlert">
+      Ly 组件发布
+    </a-button>
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'LernaButton',
   props: {},
   data() {
-  //这里存放数据
-    return {
-     
-    }
+    //这里存放数据
+    return {}
   },
   //监听属性 类似于data概念
   computed: {},
@@ -22,21 +21,16 @@ export default {
   watch: {},
   //方法集合
   methods: {
-    handleAlert () {
-      alert('测试组件成功')
+    handleAlert() {
+      alert('发布组件')
     }
   },
   //生命周期 - 创建完成（可以访问当前this实例）
-  created() {
-   
-  },
+  created() {},
   //生命周期 - 挂载完成（可以访问DOM元素）
-  mounted() {
-  
-  },
+  mounted() {}
 }
 </script>
-<style scoped lang='less'>
+<style scoped lang="less">
 //@import url(); 引入公共css类
-
 </style>

@@ -20,7 +20,8 @@ import './core/lazy_use' // use lazy load components
 import './permission' // permission control
 import './utils/filter' // global filter
 import './global.less' // global style
-import LernaUI from '../packages/lerna-ant-ui-one/index'
+import LernaUI from '../packages/lerna-ant-ui-two/index'
+// import LernaUI from 'lerna-ant-ui-one'
 Vue.use(LernaUI)
 
 Vue.config.productionTip = false
