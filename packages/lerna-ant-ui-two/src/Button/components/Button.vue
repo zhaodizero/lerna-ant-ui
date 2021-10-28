@@ -2,7 +2,7 @@
 <template>
   <div class="root">
     <a-button @click="handleAlert">
-      Ly 组件发布
+      Ly 组件发布测试
     </a-button>
   </div>
 </template>

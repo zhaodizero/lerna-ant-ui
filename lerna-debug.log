@@ -1,15 +1,12 @@
-31 error Error: Command failed with exit code 1: git add -- packages/module-1/package.json packages/module-1/package-lock.json packages/module-2/package.json packages/module-2/package-lock.json
-31 error warning: LF will be replaced by CRLF in packages/module-1/package.json.
-31 error The file will have its original line endings in your working directory
-31 error warning: LF will be replaced by CRLF in packages/module-2/package.json.
-31 error The file will have its original line endings in your working directory
-31 error The following paths are ignored by one of your .gitignore files:
-31 error packages/module-1/package-lock.json
-31 error packages/module-2/package-lock.json
-31 error hint: Use -f if you really want to add them.
-31 error hint: Turn this message off by running
-31 error hint: "git config advice.addIgnoredFile false"
-31 error     at makeError (D:\lernaCode\lerna-ant-ui\node_modules\@lerna\child-process\node_modules\execa\lib\error.js:60:11)
-31 error     at handlePromise (D:\lernaCode\lerna-ant-ui\node_modules\@lerna\child-process\node_modules\execa\index.js:118:26)
-31 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
-31 error     at async Promise.all (index 0)
+32 error Error: Command failed with exit code 1: git add -- packages/lerna-ant-ui-two/package.json packages/lerna-ant-ui-two/package-lock.json
+32 error warning: LF will be replaced by CRLF in packages/lerna-ant-ui-two/package.json.
+32 error The file will have its original line endings in your working directory
+32 error The following paths are ignored by one of your .gitignore files:
+32 error packages/lerna-ant-ui-two/package-lock.json
+32 error hint: Use -f if you really want to add them.
+32 error hint: Turn this message off by running
+32 error hint: "git config advice.addIgnoredFile false"
+32 error     at makeError (D:\lernaCode\lerna-ant-ui\node_modules\@lerna\child-process\node_modules\execa\lib\error.js:60:11)
+32 error     at handlePromise (D:\lernaCode\lerna-ant-ui\node_modules\@lerna\child-process\node_modules\execa\index.js:118:26)
+32 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+32 error     at async Promise.all (index 0)
